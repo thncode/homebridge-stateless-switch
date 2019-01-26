@@ -1,0 +1,28 @@
+{
+  "name": "homebridge-stateless-switch",
+  "version": "0.0.1",
+  "description": "a homebridge(https://github.com/nfarina/homebridge) plugin for a switch.",
+  "keywords": [
+    "homebridge-plugin",
+    "raspberrypi",
+    "raspberry-pi",
+    "switch"
+  ],
+  "homepage": "https://github.com/thncode/homebridge-stateless-switch",
+  "author": "Thomas Nemec",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thncode/homebridge-stateless-switch"
+  },
+  "bugs": {
+    "url": "http://github.com/thncode/homebridge-stateless-switch/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.4.1"
+  },
+  "dependencies": {
+    "fakegato-history": "^0.5.3",
+    "request": "^2.65.0"
+  }
+}
