@@ -1,3 +1,5 @@
+// missing: switch.txt not existing: create!
+
 var Service, Characteristic;
 const fs = require('fs');
 
